@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Week 7 eportfolio part 3</title>
+<style type="text/css">
+	table{
+		margin: auto;
+		width: 600px;
+	}
+
+	table, th, td{
+		border: none;
+	}
+
+	td{
+		display: block;
+		text-align: center;
+	}
+
+	h3{
+		text-align: center;
+	}
+
+
+
+</style>
+</head>
+<body>
+
+<form method="" action="">
+<table border="1" cellpadding="10" width="400" height="100">
+	<tr class="none">
+		<td><label for="Fullname">Fullname</label></td>
+		<td><input type="text" name="Fullname" id="Fullname" maxlength="30"></td>
+	</tr>
+
+<tr class="none">
+	<td><label for="Email">Email</label></td>
+	<td><input type="text" name="Email" id="Email"></td>
+</tr>
+
+<tr class="none">
+	<td><label for="Date">Date you can start</label></td>
+	<td><input type="Date" id="start" name="trip-start" placeholder="mm/dd/yyyy"></td>
+</tr>
+
+<tr class="none">
+	<td><label for="Morning shift">Morning shift preference</label></td>
+	<td><input type="time" name="Morning" id="Morning"></td>
+</tr>
+
+<tr class="none">
+	<td><label for="Evening shift">Evening shift preference</label></td>
+	<td><input type="time" name="Evening" id="Evening"></td>
+</tr>
+
+<tr class="none">
+	<td label for="Hours">How many hours you can work? In multiple of 3</label></td>
+	<td><input type="number" name="Hours" id="Hours" min="3" max="9"></td>
+</tr>
+
+<tr>
+	<td label for="Distance" class="width">Distance you willing to commute to volunteer center?</td>
+	<td>1<input type="range" name="Distance" id="Distance" min="1" max="15" value="3">15</td>
+</tr>
+
+<tr>
+	<td label for="Currency" class="width">Your currency preference for payment?</td>
+	<td><input type="radio" name="Currency" value="Pound" id="Pound">
+		<label for="&pound">&pound</label>
+		<input type="radio" name="Currency" value="Yen" id="Yen">
+		<label for="&yen">&yen</label>
+		<input type="radio" name="Currency" value="&#8364" id="&#8364">
+		<label for="&#8364">&#8364</label>
+	</td>
+</tr>
+
+<tr>
+	<td colspan="2" align="center">
+		<textarea rows="6" cols="40" placeholder="Type your home address"></textarea>
+	</td>
+</tr>
+
+<tr>
+	<td colspan="2" align="center">
+		<s>You will be given daily meals</s>
+	</td>
+</tr>
+
+<tr>
+	<td colspan="2" align="center">
+		<input type="checkbox" name="terms and conditions" disabled checked>
+		<label>I agree to all terms and conditions</label>
+	</td>
+</tr>
+
+<tr>
+	<td colspan="2" align="center">
+		Prove you are not robot: 10 &lt 20?
+		<input type="checkbox" name="robot">
+	</td>
+</tr>
+
+<tr>
+	<td colspan="2" align="center">
+	<input type="submit" value="Volunteer now!"></td>
+</tr>
+
+<tr>
+	<td colspan="2" align="center">
+	<input type="reset" value="Start over">
+	</td>
+</tr>
+
+<tr>
+	<td colspan="2" align="center">
+	For more information, visit MOH
+	<a href="https://www.moh.gov.bn/Pages/Home.aspx" target="_blank" rel="noopener noreferrer">website
+	</td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
